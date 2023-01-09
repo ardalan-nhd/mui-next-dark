@@ -10,3 +10,9 @@ export default function Index() {
     </Typography>
   )
 }
+
+export const getStaticProps = async () => {
+  return {
+    props: {}
+  }
+}
